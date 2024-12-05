@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>História Interativa: Robôs no Futuro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>História Interativa: Robôs no Futuro</h1>
+  </header>
+
+  <section id="introducao">
+    <h2>Introdução</h2>
+    <p>Bem-vindo ao futuro, onde robôs coexistem com seres humanos em uma sociedade avançada...</p>
+    <a href="#capitulo1">Comece a história</a>
+  </section>
+
+  <section id="capitulo1" class="capitulo">
+    <h2>Capítulo 1: A Primeira Escolha</h2>
+    <p>A IA tem que tomar sua primeira grande decisão...</p>
+    <button onclick="seguirHistoria('eficiencia')">Escolher Eficiência</button>
+    <button onclick="seguirHistoria('bemestar')">Escolher Bem-estar Humano</button>
+  </section>
+
+  <section id="capitulo2" class="capitulo">
+    <h2>Capítulo 2: O Desafio Moral</h2>
+    <p>A IA agora precisa decidir entre dados e intuição...</p>
+    <button onclick="seguirHistoria('dados')">Escolher Dados</button>
+    <button onclick="seguirHistoria('intuicao')">Escolher Intuição Humana</button>
+  </section>
+
+  <section id="conclusao">
+    <h2>Conclusão</h2>
+    <p id="resultado"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
